@@ -1,0 +1,1114 @@
+* {
+    font: 14px / 1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+input {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/*head开始*/
+.h_left a {
+    color: #b0b0b0;
+    font-size: 12px;
+    border-right: #30302f solid 1px;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.h_left {
+    margin: 8px 0;
+}
+
+.h_left a:first-child {
+    padding: 0 0;
+    padding-right: 12px;
+}
+
+.h_left a:hover {
+    color: white;
+}
+
+.header {
+    width: 100%;
+    background: black;
+}
+
+.h_box {
+    width: 1226px;
+    margin: auto;
+    height: 37px;
+}
+
+.h_left {
+    float: left;
+}
+
+.h_right {
+    float: right;
+    color: #b0b0b0;
+    font-size: 12px;
+    padding: 9px 12px;
+    background: #1b1b1b;
+    position: relative;
+}
+
+.zhuce {
+    float: right;
+}
+
+.zhuce a {
+    float: left;
+    display: block;
+    color: #b0b0b0;
+    font-size: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.shopDetail {
+    position: absolute;
+    top: 36px;
+    right: 0;
+    width: 380px;
+    height: 80px;
+    background: white;
+    color: black;
+    text-align: center;
+    line-height: 80px;
+    display: none;
+    border: #e1e0e0 solid 1px;
+    border-top: none;
+}
+
+.h_right.bg {
+    background: white;
+    color: red;
+}
+/*head结束*/
+/*导航开始*/
+.nav {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    height: 90px;
+    border-bottom: white solid 2px;
+}
+
+.nav.bg {
+    border-bottom: #a7a7a7 solid 2px;
+}
+
+.nav_box {
+    width: 1226px;
+    margin: auto;
+    height: 92px;
+}
+
+.n_left, .n_center {
+    float: left;
+}
+
+.n_left {
+    overflow: hidden;
+}
+
+.n_right {
+    float: right;
+    margin-top: 30px;
+    border: #c3c3c3 solid 1px;
+}
+
+.n_right input {
+    padding-left: 5px;
+    font-size: 12px;
+    height: 30px;
+}
+
+.n_right span {
+    background: #d8d9d9;
+    padding: 8px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.n_right span:hover {
+    color: white;
+    background: #ef5b00;
+}
+
+.n_center .shop1, .n_center .shop2, .n_center .shop3, .n_center .shop4, .n_center .shop5, .n_center .shop6, .n_center .shop7, .n_center .shop8, .n_center .shop9 {
+    float: left;
+    margin-right: 30px;
+    font-size: 14px;
+}
+.shop8 a{
+    text-decoration: none;
+}
+
+.shopshow1, .shopshow2, .shopshow3, .shopshow4, .shopshow5, .shopshow6, .shopshow7, .shopshow8, .shopshow9 {
+    display: none;
+}
+
+.n_left img {
+    float: left;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+.shop1 {
+    position: relative;
+    line-height: 90px;
+    cursor: pointer;
+
+}
+
+.shop1 .bg {
+    color: red;
+}
+
+.shopshow1 {
+    width: 1226px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: -248px;
+    background: #d8d9d9;
+    text-align: center;
+    line-height: 100px;
+    border-top: #a7a7a7 solid 2px;
+    z-index: 999;
+}
+
+.shop2 {
+    position: relative;
+    line-height: 90px;
+
+}
+
+.shopshow2 {
+    width: 1226px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: -333px;
+    background: #d8d9d9;
+    border-top: #a7a7a7 solid 2px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 999;
+}
+
+.shop3 {
+    position: relative;
+    line-height: 90px;
+
+}
+
+.shopshow3 {
+    width: 1226px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: -390px;
+    background: #d8d9d9;
+    border-top: #a7a7a7 solid 2px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 999;
+}
+
+.shop4 {
+    position: relative;
+    line-height: 90px;
+
+}
+
+.shopshow4 {
+    width: 1226px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: -450px;
+    background: #d8d9d9;
+    border-top: #a7a7a7 solid 2px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 999;
+}
+
+.shop5 {
+    position: relative;
+    line-height: 90px;
+
+}
+
+.shopshow5 {
+    width: 1226px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: -510px;
+    background: #d8d9d9;
+    border-top: #a7a7a7 solid 2px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 999;
+}
+
+.shop6 {
+    position: relative;
+    line-height: 90px;
+
+}
+
+.shopshow6 {
+    width: 1226px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: -567px;
+    background: #d8d9d9;
+    border-top: #a7a7a7 solid 2px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 999;
+}
+
+.shop7 {
+    position: relative;
+    line-height: 90px;
+
+}
+
+.shopshow7 {
+    width: 1226px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: -638px;
+    background: #d8d9d9;
+    border-top: #a7a7a7 solid 2px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 999;
+}
+
+.shop8 {
+    position: relative;
+    line-height: 90px;
+
+}
+
+.shop9 {
+    position: relative;
+    line-height: 90px;
+
+}
+/*导航结束*/
+/*轮播图开始*/
+.banner {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+    height: 460px;
+    position: relative;
+    z-index: 15;
+    background: red;
+}
+
+.banner .bannerInner {
+    width: 100%;
+    height: 100%;
+    background: url("../img/default.gif") no-repeat center center #e1e1e1;
+}
+
+.banner .bannerInner div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.banner .bannerInner img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .bannerTip {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    z-index: 109;
+    height: 18px;
+    overflow: hidden;
+}
+
+.banner .bannerTip li {
+    float: left;
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    background: #a1a2a3;
+    cursor: pointer;
+    border-radius: 50%;
+    border: #a1a2a3 solid 2px;
+}
+
+.banner .bannerTip li.bg {
+    background: white;
+    border: #a1a2a3 solid 3px;
+}
+
+.banner a {
+    position: absolute;
+    top: 50%;
+    z-index: 110;
+    margin-top: -22.5px;
+    width: 30px;
+    height: 45px;
+    background-image: url("../img/pre.png");
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.banner a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.banner a.bannerLeft {
+    display: none;
+    left: 250px;
+    background-position: 0 0;
+}
+
+.banner a.bannerRight {
+    display: none;
+    right: 20px;
+    background-position: -50px 0;
+}
+/*轮播图结束*/
+/*左边导航开始*/
+.conn {
+    position: absolute;
+    top: 150px;
+    left: 62px;
+    z-index: 100;
+}
+
+.con {
+    position: relative;
+}
+
+.navBg, .na {
+    padding: 20px 0;
+    width: 234px;
+    height: 420px;
+}
+
+.navBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.na {
+    /*background: rgba(0, 0, 0, 0.6); /!*只是给背景设置透明度,里面的子元素是不透明的,我们自己写opacity会导致里面的内容也是透明的*!/*/
+}
+
+.na .navLi {
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+}
+
+.na .navLi.bg {
+    background: #ff6700;
+}
+
+.na .navLi .navLiTitle {
+    display: inline-block;
+    padding-left: 30px;
+    height: 42px;
+    color: #fff;
+}
+
+.na .navLi .navLiDetail {
+    display: none;
+    position: absolute;
+    left: 234px;
+    top: -20px;
+    width: 800px;
+    height: 370px;
+    background: #fff;
+}
+
+.navLiDetail li {
+    float: left;
+    padding: 18px 20px;
+    width: 225px;
+    height: 40px;
+}
+
+.navLiDetail li img, .navLiDetail li span, .navLiDetail li a {
+    display: block;
+    float: left;
+}
+
+.navLiDetail li img {
+    width: 40px;
+    height: 40px;
+}
+
+.navLiDetail li span {
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.navLiDetail li a {
+    float: right;
+    margin-top: 8px;
+    width: 58px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #ff6700;
+}
+
+.navLiDetail li a:hover {
+    background: #f25807;
+    border-color: #f25807;
+    color: #fff;
+}
+/*左边导航结束*/
+/*轮播图下面展示部分开始*/
+.zhanshi {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.zhanshi .z_left {
+    float: left;
+    background: #5f5750;
+}
+
+.zhanshi .z_right {
+    float: right;
+}
+
+.z_right {
+    width: 300px;
+    height: 170px;
+    margin-right: 12px;
+}
+
+.z_right img {
+    width: 100%;
+    height: 100%;
+}
+
+.z_shang {
+    width: 280px;
+    text-align: center;
+}
+
+.z_shang .z1 {
+    text-align: center;
+    width: 80px;
+    float: left;
+    margin: 10px 5px;
+}
+
+.z_left img {
+    margin-left: 25px;
+}
+
+.z_xia .z1 {
+    width: 80px;
+    text-align: center;
+    float: left;
+    margin: 10px 5px;
+}
+
+.z1 a {
+    line-height: 30px;
+    color: #9d9d9d;
+    font-size: 12px;
+}
+
+.z1 a:hover {
+    color: white;
+    cursor: pointer;
+}
+/*轮播图下面展示部分结束*/
+/*明星单品开始*/
+.zhan {
+    width: 1226px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    height: 360px;
+    margin-top: 40px;
+}
+
+.zhanshibox {
+    width: 2600px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.zhanshi1 img {
+    float: left;
+    margin-right: 20px;
+}
+
+.bleft {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    width: 40px;
+    height: 100px;
+    background: red;
+    background: url("../img/pre.png") no-repeat;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.bright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100px;
+    background: red;
+    background: url("../img/pre.png") no-repeat;
+    background-position: -45px 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.zhan a:hover {
+    opacity: 1;
+}
+/*明星单品结束*/
+/*中间部分开始*/
+.zhongjian {
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.content {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.cbox {
+    width: 1226px;
+    overflow: hidden;
+}
+
+.cbox h1 {
+    float: left;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.cbox a {
+    float: right;
+    margin-right: 20px;
+    padding-top: 50px;
+}
+
+.cbox a {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cbox a:hover {
+    color: red;
+}
+
+.content .cleft {
+    float: left;
+}
+
+.content .cright {
+    float: right;
+    width: 990px;
+}
+
+.content .cright .fudong {
+    width: 240px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    background: white;
+    margin-right: 6px;
+    margin-bottom: 16px;
+}
+
+.content .cright .bg {
+    width: 240px;
+    box-shadow: 0 0 18px #cccccc;
+}
+
+.content .cright .fudong img {
+    width: 160px;
+    height: 160px;
+    margin-left: 40px;
+}
+
+.content .cright .fudong h1 {
+    line-height: 40px;
+}
+
+.content .cright .fudong p {
+    font-size: 12px;
+    color: #8d8c8c;
+    line-height: 50px;
+}
+
+.content .cright .fudong p:last-child {
+    color: red;
+    font-size: 14px;
+}
+
+.main1 {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main1 .mleft {
+    float: left;
+}
+
+.main1 .mleft h1 {
+    line-height: 40px;
+    font-size:20px;
+}
+
+.main1 .mleft img {
+    margin-bottom: 5px;
+}
+
+.main1 .tabBox {
+    float: right;
+}
+
+.tabBox {
+    margin: 10px auto;
+    width: 990px;
+    overflow: hidden;
+}
+
+.tabBox ul {
+    overflow: hidden;
+}
+
+.tabBox ul li {
+    float: right;
+    margin-right: 10px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tabBox ul li.bg {
+    color: red;
+}
+
+.tabBox > div {
+    display: none;
+    text-align: center;
+}
+
+.tabBox div.bg {
+    display: block;
+}
+
+.tabBox > div .div1 {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    height: 295px;
+    overflow: hidden;
+}
+
+.tabBox > div .div1 h1 {
+    position: absolute;
+    bottom: -70px;
+    text-align: center;
+    background: #ff6709;
+    line-height: 60px;
+    width: 100%;
+    color: white;
+}
+
+.weini {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.weibox {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.weini h1:first-child {
+    line-height: 50px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.weibox .wei1 {
+    float: left;
+    width: 230px;
+    background: white;
+    text-align: center;
+    margin-right: 15px;
+    box-shadow: 2px 2px 15px #cccccc;;
+    padding-top: 12px;
+}
+
+.weibox .wei1 img {
+    margin-left: 40px;
+}
+
+.weibox .wei1 p {
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.weibox .wei1 .red {
+    line-height: 40px;
+    color: red;
+}
+
+.reping {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.reping h1 {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.dahezi {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.dahezi .dafu {
+    float: left;
+    width: 296px;
+    background: white;
+    margin-right: 10px;
+}
+
+.dahezi .dafu p {
+    margin: auto;
+    width: 250px;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.dahezi .dafu .dafup {
+    line-height: 25px;
+    margin-top: 10px;
+    color: #8d8c8c;
+}
+
+.dahezi .dafu .dap {
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.dahezi .dafu .dap span {
+    color: red;
+}
+
+.dahezi .bg {
+    width: 298px;
+    box-shadow: 0 0 25px #cccccc;
+}
+
+.yigezi {
+    width: 1226px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.bannn {
+    position: relative;
+    width: 296px;
+    height: 430px;
+    overflow: hidden;
+}
+
+.bannn .bannnInner {
+    width: 100%;
+    height: 100%;
+    background: url("../img/default.gif") no-repeat center center #e1e1e1;
+}
+
+.bannn .bannnInner div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.bannn .bannnInner img {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.bannn .bannnTip {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+    height: 18px;
+    overflow: hidden;
+}
+
+.bannn .bannnTip li {
+    float: left;
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+    background: lightblue;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.bannn .bannnTip li.bg {
+    background: red;
+}
+
+.bannn a {
+    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    margin-top: -22.5px;
+    width: 30px;
+    height: 45px;
+    background-image: url("../img/pre.png");
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.bannn a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.bannn a.bannnLeft {
+    left: 20px;
+    background-position: 0 0;
+}
+
+.bannn a.bannnRight {
+    right: 20px;
+    background-position: -50px 0;
+}
+
+.banbox {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.banbox .bannn {
+    float: left;
+    margin-right: 10px;
+}
+/*中间部分结束*/
+/*fotto部分开始*/
+.f1 {
+    width: 1226px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-bottom: #d0cfcf solid 1px;
+}
+
+.a1 a {
+    line-height: 60px;
+    padding: 10px 0;
+    padding-left: 100px;
+    padding-right: 50px;
+    border-right: #d0cfcf solid 1px;
+}
+
+.a1 a:last-child {
+    padding-right: 0;
+    border: none;
+}
+
+.a1 a:hover {
+    color: #ef5b00;
+    cursor: pointer;
+}
+
+.a11 {
+    background: url("../img/xiaobanshou.png") no-repeat 60px center;
+}
+
+.a22 {
+    background: url("../img/qitian.png") no-repeat 60px center;
+}
+
+.a33 {
+    background: url("../img/shiwutian.png") no-repeat 60px center;
+}
+
+.a44 {
+    background: url("../img/manwba.png") no-repeat 60px center;
+}
+
+.a55 {
+    background: url("../img/520.png") no-repeat 60px center;
+}
+
+.fo1 a {
+    display: block;
+    font-size: 12px;
+    color: #5a5959;
+}
+
+.fott {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.fott h1 {
+    line-height: 80px;
+    font-size: 14px;
+}
+
+.fott a {
+    font-size: 12px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.fo1 {
+    margin-left: 20px;
+    float: left;
+    margin-right: 150px;
+}
+
+.fo1 a:hover {
+    color: #ef5b00;
+}
+
+.fo1:last-child {
+    margin-right: 0;
+}
+/*fotto部分结束*/
+
+.zuicenter a {
+    font-size: 12px;
+    padding: 4px 5px;
+    border-right: #e1e0e0 solid 1px;
+}
+
+.zuicenter p {
+    font-size: 12px;
+    line-height: 30px;
+    color: #bababa;
+}
+
+.zuihou {
+    width: 1226px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.zuihou div {
+    float: left;
+}
+
+.zuihou .zuicenter {
+    margin-left: 30px;
+}
+
+.fashao {
+    width: 1226px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+}
+
+.fashao img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+}

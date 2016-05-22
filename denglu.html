@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            background: #f2f1f1;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "微軟正黑體", "儷黑 Pro", sans-serif;
+            font-size: 12px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        input {
+            border: none;
+        }
+
+        .box {
+            width: 800px;
+            background: white;
+            margin: auto;
+        }
+
+        .logo {
+            width: 800px;
+            margin: auto;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .logo p {
+            font-size: 30px;
+            color: #424242;
+            margin-top: 15px;
+        }
+
+        .logo .inputt {
+            margin-top: 50px;
+            height: 90px;
+        }
+
+        .logo .inputt input {
+            width: 365px;
+            height: 50px;
+            padding-left: 20px;
+            border: #e1e0e0 solid 1px;
+        }
+
+        .logo .inputt p {
+            display: none;
+        }
+
+        .logo .inputt input.bg {
+            border: red solid 1px;
+        }
+        .logo .liji{
+            margin: auto;
+            width: 390px;
+            height: 50px;
+            background: #ef5b00;
+            font-size: 14px;
+            line-height: 50px;
+            color: white;
+           font-family: serif;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .qita img{
+            margin: 0 5px;
+        }
+        .wenzi{
+            margin-top: 40px;
+        }
+        .wenzi a{
+            margin: 0 15px;
+            font-size: 14px;
+            font-family: serif;
+            color: #8d8c8c;
+            cursor: pointer;
+        }
+        .wenzi a:hover{
+            color: #ef5b00;
+        }
+        .fotto{
+            width: 800px;
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .yihang a{
+            padding: 0 15px;
+            border-right: #424242 solid 1px;
+            font-size: 13px;
+            color:#8d8c8c ;
+            font-family: serif;
+            cursor: pointer;
+            line-height: 50px;
+        }
+        .yihang a:hover{
+            color: #424242;
+        }
+        .fotto p{
+            padding-bottom: 60px;
+            color: #8d8c8c;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="logo">
+        <img src="img/logo.png"/>
+
+        <p>小米账号登陆</p>
+
+        <div class="inputt">
+            <input placeholder="邮箱/手机号码/小米账号" id="input1"/>
+
+            <p style="font-size: 14px;margin-top: 10px" id="span1">请输入账号</p>
+        </div>
+        <div class="inputt" style="margin-top: 0">
+            <input placeholder="密码" id="input11"/>
+
+            <p style="font-size: 14px;margin-top: 10px" id="span11">请输入密码</p>
+        </div>
+        <P class="liji">立即登陆</P>
+        <p><img src="img/qita.png"> </p>
+        <div class="qita">
+            <img src="img/qq.png">
+            <img src="img/weibo.png">
+            <img src="img/zhifub.png">
+        </div>
+        <div class="wenzi">
+            <a>注册小米账号</a>
+            <a>忘记密码？</a>
+        </div>
+    </div>
+</div>
+<div class="fotto">
+    <div class="yihang">
+        <a>简体</a>
+        <a>繁体</a>
+        <a>English</a>
+        <a>常见问题</a>
+        <p>小米公司版权所有-京ICP备10046444-京ICP备10046444-京ICP证110507号</p>
+    </div>
+</div>
+<script>
+    var input1 = document.getElementById("input1");
+    var span1 = document.getElementById("span1");
+    var input11 = document.getElementById("input11");
+    var span11 = document.getElementById("span11");
+    input1.onfocus = function () {
+        span1.style.display = "block";
+    }
+    input1.onblur = function () {
+        var val = this.value;
+        if (val.length === 0) {
+            this.className = "bg";
+            span1.style.display = "block";
+            span1.innerHTML = "账号不能为空";
+            span1.style.color = "red";
+        }else{
+            this.className = "";
+            span1.style.display = "none";
+        }
+    }
+    input11.onfocus = function () {
+        span11.style.display = "block";
+    }
+    input11.onblur = function () {
+        var val = this.value;
+        if (val.length === 0) {
+            this.className = "bg";
+            span11.style.display = "block";
+            span11.innerHTML = "密码不能为空";
+            span11.style.color = "red";
+        }else{
+            this.className = "";
+            span11.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
